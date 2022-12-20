@@ -1,0 +1,15 @@
+enviroment: test
+welcomeMsg: Hello from Test
+server:
+  port: 4000
+
+---
+
+enviroment: prod
+welcomeMsg: Hello form Prod
+server:
+  port: 5000
+
+---
+server:
+  port: 8080
